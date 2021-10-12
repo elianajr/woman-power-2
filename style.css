@@ -1,3 +1,18 @@
+
+body {
+    color: #0E1C36;
+    margin: 20px;
+}
+
+.btn {
+    background-color: #AFCBFF;
+}
+
+.btn:hover {
+    background-color: #FFEDE1;
+}
+
+
 .container-fluid {
     background-color: #FFEDE1;
     font-family: 'Shadows Into Light', cursive;
