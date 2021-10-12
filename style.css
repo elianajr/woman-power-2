@@ -1,3 +1,4 @@
+
 body {
     color: #0E1C36;
     margin: 20px;
@@ -10,4 +11,45 @@ body {
 .btn:hover {
     background-color: #FFEDE1;
 }
+
+
+.container-fluid {
+    background-color: #FFEDE1;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+header img {
+    height: 50%;
+}
+
+.carousel-caption p{
+    color: #F9FBF2;
+}
+
+.carousel-caption h5 {
+    color: #D7F9FF;
+}
+
+.carousel-caption a {
+    text-decoration: none;
+    color: #D7F9FF;
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 700px;
+}
+
+.carousel-second p {
+    color: grey;
+}
+
+
+
 
