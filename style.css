@@ -38,11 +38,11 @@ body {
     margin: 20px;
 }
 
-.btn {
+.btn-final {
     background-color: #AFCBFF;
 }
 
-.btn:hover {
+.btn-final:hover {
     background-color: #FFEDE1;
 }
 
