@@ -1,4 +1,15 @@
+body {
+    color: #0E1C36;
+    margin: 20px;
+}
 
+container-fluid {
+    background-color: #FFEDE1;
+    font-family: 'Shadows Into Light', cursive;
+}
+#title {
+    font-size: 18px;
+}
 
 .card {
     text-decoration-color: #0E1C36;
@@ -31,11 +42,6 @@
 .btn border border-5{
     background-color: #AFCBFF;
     color: #0E1C36;
-
-
-body {
-    color: #0E1C36;
-    margin: 20px;
 }
 
 .btn-final {
