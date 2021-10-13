@@ -6,11 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="stylegit remote -vgit re.css">
-    <title>Document</title>
+    <link rel="pull stylesheet" href="style.css">
+    <title>Power Woman</title>
 </head>
 <body>
-    <div class="container-fluid row d-flex justify-content-between">
-        
+     <header>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="rafal-szczawinski-A0y95Vwxwp4-unsplash.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                Women are powerful!
+              </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://unsplash.com/photos/TYA5rE2Meys/download?force=true" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>#ActuarPorLaIgualdad</h5>
+                  <p>#ActuarPorLaIgualdad es una campaña que busca romper con las barreras e intentar fomentar las pequeñas acciones que generen consecuencias reales en la lucha por la igualdad.</p>
+                  <a href="https://www.unwomen.org/es/news/stories/2021/6/feature-seven-ways-to-change-the-world" target="_blank">Leer mas</a>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://unsplash.com/photos/64YrPKiguAE/download?force=true" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block carousel-second">
+                  <h5>Mujeres en la Tecnologia</h5>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <a href="https://www.unwomen.org/es/news/stories/2021/6/feature-seven-ways-to-change-the-world" target="_blank">Leer mas</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://unsplash.com/photos/9buol7lTdh4/download?force=true" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block carousel-thirt">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                  <a href="https://www.unwomen.org/es/news/stories/2021/6/feature-seven-ways-to-change-the-world" target="_blank">Leer mas</a>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </main>
+  <div class="container-fluid row d-flex justify-content-between">
           <div class="card col-3 border-2 mt-2 mb-2" style="width: 18rem;">
             <img src="https://www.viaempresa.cat/uploads/s1/25/94/85/22/anna-navarro-la-dona-me-s-influent-del-mo-n-en-tecnologia-2020-en-una-imatge-d-arxiu-cedida_11_640x380.jpeg" class="card-img-top mt-3 mb-1 rounded-bottom rounded-3" alt="Anna Navarro">
             <div class="card-body">
@@ -50,14 +103,30 @@
             <div class="d-grid gap-2 col-6 mx-auto">
                 <button href="https://www.viaempresa.cat/es/economia/mujer-influyente-tecnologia-catalana_2145390_102.html" class="btn border border-5" type="button">Más info</button>
             </div>
-          </div>
-          
-
-          
-               
+         </div>                     
     </div>
-    
+     <form class="formulario">
+        <div class="row">
+        <div class="col mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tu nombre aquí" required>
+        </div>
 
+        <div class="col mb-3">
+            <label for="exampleFormControlInput2" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="nombre@ejemplo.com" required>
+        </div>
+        </div>
+      
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Cuéntanos tu historia</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" maxlength="500" required></textarea>
+        </div>
+
+        <input type="submit" value="Enviar" class="btn">
+
+    </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
 </body>
 </html>
+

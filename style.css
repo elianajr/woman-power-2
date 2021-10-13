@@ -8,7 +8,7 @@
     min-width: 0;
     word-wrap: break-word;
     background: rgb(255,237,225);
-background: linear-gradient(0deg, rgba(255,237,225,1) 43%, rgba(175,203,255,1) 100%);
+    background: linear-gradient(0deg, rgba(255,237,225,1) 43%, rgba(175,203,255,1) 100%);
     background-clip: border-box;
     border: 2px solid #0E1C36;
     border-radius: .25rem;
@@ -28,11 +28,63 @@ background: linear-gradient(0deg, rgba(255,237,225,1) 43%, rgba(175,203,255,1) 1
     text-decoration-color: #0E1C36;
     box-shadow: 1px 1px;
   }
-.btn{
+.btn border border-5{
     background-color: #AFCBFF;
     color: #0E1C36;
+
+
+body {
+    color: #0E1C36;
+    margin: 20px;
 }
-.container-fluid{
-    background-color: #dff4f8;
+
+.btn {
+    background-color: #AFCBFF;
 }
+
+.btn:hover {
+    background-color: #FFEDE1;
+}
+
+
+.container-fluid {
+    background-color: #FFEDE1;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+header img {
+    height: 50%;
+}
+
+.carousel-caption p{
+    color: #F9FBF2;
+}
+
+.carousel-caption h5 {
+    color: #D7F9FF;
+}
+
+.carousel-caption a {
+    text-decoration: none;
+    color: #D7F9FF;
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 700px;
+}
+
+.carousel-second p {
+    color: grey;
+}
+
+
+
+
 
